@@ -231,6 +231,14 @@ body {
   z-index: 3;
   cursor: pointer;
 }
+.lydia-dp {
+  width: 30%; /* Adjust percentage as needed */
+  max-width: 250px; /* Limits the size */
+  height: auto; /* Maintains aspect ratio */
+  display: block;
+  margin: 0 auto; /* Centers the image */
+  border-radius: 10px; /* Optional: adds rounded corners */
+}
 
 /* Media Queries */
 @media screen and (max-height: 1000px) {
